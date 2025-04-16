@@ -3,7 +3,7 @@
 ![icon](icons/icon_200.png)
 
 ## About 
-libvideo (aka VideoLibrary) is a special .NET 1.4-compatible .NET library for downloading&playing YouTube videos. It is my attempt to return ability to play YT video via homemade retro apps such as YoutubeUWP or Windows 10 Mobile….
+My fork of libvideo (aka VideoLibrary) is a special .NET 1.4-compatible .NET library for downloading&playing YouTube videos. It is my attempt to return ability to play YT video via homemade retro apps such as YoutubeUWP or Windows 10 Mobile….
 
 ## Getting Started
 
