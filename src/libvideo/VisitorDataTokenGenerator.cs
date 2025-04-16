@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text.Json;
+//using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace VideoLibrary
@@ -33,17 +35,17 @@ namespace VideoLibrary
                 // Remove the ")]}'" prefix if present
                 jsonString = jsonString.StartsWith(")]}'") ? jsonString.Substring(4) : jsonString;
 
-                var doc = JsonDocument.Parse(jsonString);
-                var value = doc.RootElement[0]
-                    .EnumerateArray()
+                var doc = JToken.Parse(jsonString);//JsonDocument.Parse(jsonString);
+                var value = doc.Root[0]//.RootElement[0]
+                    .ToArray()//.EnumerateArray()
                     .ElementAt(2)
-                    .EnumerateArray()
+                    .ToArray()//.EnumerateArray()
                     .ElementAt(0)
-                    .EnumerateArray()
+                    .ToArray()//.EnumerateArray()
                     .ElementAt(0)
-                    .EnumerateArray()
+                    .ToArray()//.EnumerateArray()
                     .ElementAt(13)
-                    .GetString();
+                    .ToString();//.GetString();
 
                 if (value == null)
                     throw new Exception("Failed to fetch visitor data");

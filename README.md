@@ -2,34 +2,8 @@
 
 ![icon](icons/icon_200.png)
 
-[![NuGet](https://img.shields.io/nuget/dt/VideoLibrary.svg)](https://www.nuget.org/packages/VideoLibrary)
-[![NuGet](https://img.shields.io/nuget/v/VideoLibrary.svg)](https://www.nuget.org/packages/VideoLibrary)
-[![license](https://img.shields.io/github/license/i3arnon/libvideo.svg)](LICENSE)
-[![Join the chat at https://discord.gg/SERVhPp](https://user-images.githubusercontent.com/7288322/34429152-141689f8-ecb9-11e7-8003-b5a10a5fcb29.png)](https://discord.gg/SERVhPp)
-
-libvideo (aka VideoLibrary) is a modern .NET library for downloading YouTube videos. It is portable to most platforms and is very lightweight.
-
-## Documentation
-- [Documentation](docs/README.md)
-- [Example Application](samples/Valks/Valks/Program.cs)
-- [Fast Downloader with Chunks](/src/libvideo.debug/CustomYoutubeClient.cs)
-## Installation
-
-You can grab a copy of the library [on NuGet](https://www.nuget.org/packages/VideoLibrary) by running:
-
-    Install-Package VideoLibrary
-
-Alternatively, you can try building the repo if you like your assemblies extra-fresh.
-
-## Supported Platforms
-- NET ve .NET Core	                |   1.0, 1.1, 2.0, 2.1, 2.2, 3.0, 3.1, 5.0, 6.0, 7.0
-- .NET Framework  	                |   4.5, 4.5.1, 4.5.2, 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2, 4.8, 4.8.1, 4.8.2
-- Mono	                            |   4.6, 5.4, 6.4
-- Xamarin.iOS	                    |   10.0, 10.14, 12.16
-- Xamarin.Mac	                    |   3.0, 3.8, 5.16
-- Xamarin.Android	                |   7.0, 8.0, 10.0
-- Universal Windows Platform	    |   8.0, 8.1, 10.0, 10.0.16299, TBD
-- Unity	                            |   2018
+## About 
+libvideo (aka VideoLibrary) is a special .NET 1.4-compatible .NET library for downloading&playing YouTube videos. It is my attempt to return ability to play YT video via homemade retro apps such as YoutubeUWP or Windows 10 Mobile….
 
 ## Getting Started
 
@@ -62,3 +36,13 @@ If you'd like to check out some more of our features, take a look at our [docs](
 ## License
 
 libvideo is licensed under the [BSD 2-clause license](LICENSE).
+
+## References
+- https://github.com/omansak/libvideo Original project
+- https://github.com/omansak OMANSAK, cool C# developer & main author of original libvideo 
+
+## .
+As is. No support. DIY. Learn purposes only.
+
+## ..
+[m][e] April 2025

@@ -1,6 +1,8 @@
 using System;
 using System.Text;
-using System.Text.Json;
+//using System.Text.Json;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace VideoLibrary.Helpers
 {
@@ -20,7 +22,7 @@ namespace VideoLibrary.Helpers
             return GetKey(key, source, out target);
         }
 
-        public static JsonElement? GetNullableProperty(this JsonElement jsonElement, string propertyName)
+        /*public static JsonElement? GetNullableProperty(this JsonElement jsonElement, string propertyName)
         {
             if (jsonElement.TryGetProperty(propertyName, out JsonElement returnElement))
             {
@@ -28,7 +30,7 @@ namespace VideoLibrary.Helpers
             }
 
             return null;
-        }
+        }*/
 
         public static string Extract(string source)
         {
